@@ -23,3 +23,12 @@ npm install
 ```bash
 npm run wdio
 ```
+
+## Test structure
+
+-   test case can be found in test/spec folder.
+-   user credential is stored in .env file
+
+#### Test result
+
+-   The test to remove the country from the list has failed as it returned a status code 500. I have already tried executing the test manually on localhost:8080 swagger web, and it produced the same result.
