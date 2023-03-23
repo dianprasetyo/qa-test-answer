@@ -30,5 +30,7 @@ npm run wdio
 -   user credential is stored in .env file
 
 #### Test result
+<img width="855" alt="Monosnap README md — qa-test-answer 2023-03-23 11-40-09" src="https://user-images.githubusercontent.com/54337360/227106171-879e7c21-86cb-4074-8dc3-af729afc06e0.png">
+
 
 -   The test to remove the country from the list has failed as it returned a status code 500. I have already tried executing the test manually on localhost:8080 swagger web, and it produced the same result.
